@@ -1,1 +1,3 @@
 # VideoCoding-PolJulia
+
+hola juliaa 
