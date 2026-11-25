@@ -14,10 +14,9 @@ ZIGZAG_ORDER = [
     ]
 
 def zigzag(matrix):    
-    return matrix.flatten()[ZIGZAG_ORDER]
+    return matrix.flatten()[ZIGZAG_ORDER].tolist()
 
 def inverse_zigzag(arr):
-    """Convert a 1D zig-zag-ordered array back to 8x8 block."""
     block = np.zeros(64)
     block[ZIGZAG_ORDER] = arr
     return block.reshape(8, 8)
