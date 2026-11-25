@@ -51,7 +51,6 @@ def decode(s: list) -> list:
             value = i[0]
             reps = i[1]
             for j in range(reps):
-            # Append character and its count to result list
                 result.append(value)
         else:
             result.append(i)
